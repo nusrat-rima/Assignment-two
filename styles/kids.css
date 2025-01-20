@@ -20,8 +20,7 @@ main {
 
 /* navbar related styles */
 .icon {
-  display: none;
-  left: 3.75px;
+  visibility: hidden;
 }
 .nav-item {
   list-style: none;
@@ -74,10 +73,92 @@ main {
   color: rgb(17, 17, 17);
   font-size: 2rem;
 }
-.line{
+.line {
   border: 0.5px solid rgb(254, 163, 1);
   visibility: hidden;
 }
+.towards-cls {
+  color: rgb(1, 172, 253);
+}
+/* banner-related styles */
+.scndary-btn {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-size: 1.25rem;
+}
+.banner-tittle {
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+.banner-description {
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+.banner {
+  display: flex;
+  gap: 150px;
+  margin-bottom: 100px;
+}
+.banner-content {
+  justify-content: center;
+  align-items: center;
+}
+/* .banner-image {
+  width: 100%;
+} */
+/* standard curriculam styles */
+.standard {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2.8rem;
+  margin: 80px 0;
+}
+.fact-tittle {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.fact-descrption {
+  font-weight: 500;
+  font-size: 1rem;
+  color: rgb(128, 128, 128);
+}
+.fact-card {
+  box-sizing: border-box;
+  border: 0.94px solid rgb(222, 245, 255);
+  border-radius: 18.86px;
+
+  box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+  background: linear-gradient(
+      180deg,
+      rgb(222, 245, 255),
+      rgba(255, 255, 255, 0) 40%
+    ),
+    rgb(255, 255, 255);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.facts-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 100px;
+}
+.yellow-btn {
+  color: rgb(240, 170, 0);
+  font-size: 1rem;
+}
+.blu-btn {
+  font-size: 1rem;
+  color: rgb(100, 200, 255);
+}
+.purple-btn {
+  font-size: 1rem;
+  color: rgb(135, 0, 255);
+}
+
 /* responsive media query */
 @media screen and (max-width: 576px) {
   .nav-link,
@@ -88,7 +169,18 @@ main {
   .nav-bar {
     justify-content: space-between;
   }
-  .line{
+  .line {
     visibility: visible;
+  }
+  .banner {
+    flex-direction: column-reverse;
+    gap: 0px;
+  }
+  .banner-content {
+    text-align: center;
+    gap: 10px;
+  }
+  .facts-container{
+    grid-template-columns: repeat(1,1fr);
   }
 }
