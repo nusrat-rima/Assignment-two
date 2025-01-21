@@ -7,6 +7,9 @@
   font-style: normal;
 }
 /* shared styles */
+.icon{
+  display: none;
+}
 main {
   max-width: 1440px;
   margin: 0 auto;
@@ -256,6 +259,7 @@ footer {
 }
 .view-btn {
   background-color: rgb(17, 17, 17);
+  font-size: 1.5rem;
   width: 200px;
   height: 50px;
   color: white;
