@@ -7,7 +7,7 @@
   font-style: normal;
 }
 /* shared styles */
-#icon{
+#icon {
   display: none;
 }
 main {
@@ -25,9 +25,7 @@ footer {
   margin: 0 auto;
 }
 /* navbar related styles */
-/* .icon {
- display: none;
-} */
+
 .nav-item {
   list-style: none;
   margin-right: 30px;
@@ -111,9 +109,7 @@ footer {
   justify-content: center;
   align-items: center;
 }
-/* .banner-image {
-  width: 100%;
-} */
+
 /* standard curriculam styles */
 .standard {
   text-align: center;
@@ -129,6 +125,7 @@ footer {
   font-weight: 500;
   font-size: 1rem;
   color: rgb(128, 128, 128);
+  padding: 10px;
 }
 .fact-card {
   box-sizing: border-box;
