@@ -162,6 +162,54 @@ footer {
   color: rgb(135, 0, 255);
 }
 /* Our stories styles */
+.bttn-1 {
+  color: white;
+  background-color: rgb(60, 216, 232);
+  width: 250px;
+  height: 60px;
+  border-radius: 16px;
+  border: 1px solid;
+  margin-top: -800px;
+}
+.bttn-2 {
+  background-color: rgb(149, 178, 38);
+  width: 150px;
+  height: 40px;
+  border-radius: 16px;
+  border: 1px solid;
+  color: white;
+  margin-top: -1000px;
+}
+.bttn-3 {
+  background-color: rgb(93, 88, 240);
+  width: 150px;
+  height: 40px;
+  border-radius: 16px;
+  border: 1px solid;
+  color: white;
+  margin-top: -1000px;
+  margin-left: 0px;
+}
+.bttn-4 {
+  background-color: #fea301;
+  width: 150px;
+  height: 40px;
+  border-radius: 16px;
+  border: 1px solid;
+  color: white;
+  margin-top: -1000px;
+  margin-left: 0px;
+}
+.bttn-5 {
+  background-color: palevioletred;
+  width: 150px;
+  height: 40px;
+  border-radius: 16px;
+  border: 1px solid;
+  color: white;
+  margin-top: -1000px;
+  margin-left: 0px;
+}
 .Our {
   text-align: center;
   margin: 80px 0;
@@ -188,6 +236,7 @@ footer {
 }
 .image-container2 img {
   width: 100%;
+  border-radius: 16px;
 }
 .image-items {
   text-align: center;
@@ -245,7 +294,7 @@ footer {
   font-size: 1.5rem;
   color: white;
 }
-.keep-tittle{
+.keep-tittle {
   color: white;
   font-weight: 700;
   font-size: 1.5rem;
